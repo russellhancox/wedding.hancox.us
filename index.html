@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--
+         wedding.hancox.us
+  Copyright (c) 2025 Russell Hancox
+-->
+<html class="scroll-smooth">
+  <head>
+    <title>Roksolana & Russell's Wedding</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Italiana&family=Quintessential&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-background: #dfeae6;
+        /* --color-text: #1471af; */
+        --color-clifford: #da373d;
+        --font-sans: "Italiana", system-ui;
+      }
+    </style>
+    <style>
+      @keyframes fade-in {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+
+      .background-image {
+        background-image: url("background.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+
+      @media (max-width: 610px) {
+        .background-image {
+          background-size: 100% 100%;
+          background-attachment: scroll;
+        }
+      }
+
+      .quintessential-regular {
+        font-family: "Quintessential", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .italiana-regular {
+        font-family: "Italiana", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .inter-tight-200 {
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+      }
+
+    </style>
+  </head>
+  <body class="bg-background text-text">
+    <header class="background-image h-[1000px]">
+      <div class="p-8">
+        <a href="https://forms.gle/7SXgQK9WQWC1VWzp6" target="_blank">
+          <button class="bg-sky-700 text-white text-2xl p-4 rounded-md px-12 cursor-pointer hover:bg-sky-800 italiana-regular float-right">
+            RSVP
+          </button>
+        </a>
+      </div>
+      <div class="pt-128">
+        <!--
+          <h2 class="quintessential-regular text-center text-6xl text-white">
+            — 11.08.2025  —
+          </h2>
+        -->
+
+        <h1 class="italiana-regular text-center text-[130px] text-white">
+          Roksolana & Russell
+        </h1>
+      </div>
+      <div class="p-6">
+        <h4 class="italiana-regular text-center text-4xl text-white">
+          We're getting married!
+        </h4>
+      </div>
+      <div class="text-4xl text-white text-center">
+        <a href="#main">↓</a>
+      </div>
+    </header>
+    <main id="main">
+      <div class="bg-white text-center p-16 italiana-regular text-4xl/18">
+        <h3 class="w-1/2 mx-auto text-sky-800">
+          Roksolana and Russell joyfully request the pleasure of your company as
+          we speak our vows and join in marriage in the presence of family and
+          friends.
+        </h3>
+      </div>
+
+      <div class="bg-gray-200 text-center p-16 italiana-regular text-black text-2xl/18 grid grid-cols-2">
+        <div>
+          <h3 class="text-center text-2xl">When</h3>
+          <h2 class="text-center text-4xl p-4 text-sky-800">Saturday, November 8th, 2025</h2>
+          <h4 class="text-center text-2xl">Ceremony: 3.30pm</h4>
+          <h4 class="text-center text-2xl">Cocktail Hour: 4pm</h4>
+          <h4 class="text-center text-2xl">Reception: 5 — 9pm</h4>
+        </div>
+
+        <div>
+          <h3 class="text-center text-2xl">Where</h3>
+          <h2 class="text-center text-4xl p-4 text-sky-800">Villa Barone Hilltop Manor</h2>
+          <a href="https://maps.app.goo.gl/XUekMe5SK2fziARt9" target="_blank">
+            <h4 class="text-center text-2xl pt-4">466 US-6</h4>
+            <h4 class="text-center text-2xl">Mahopac, NY 10541</h4>
+          </a>
+        </div>
+      </div>
+
+      <div class="bg-white text-black text-center p-16 text-2xl">
+        <h3 class="text-center text-2xl p-8">Accommodation</h3>
+        <a href="https://hotelzerodegrees.com/" target="_blank">
+          <h2 class="text-center text-4xl pb-4">Hotel Zero Degrees</h2>
+        </a>
+        <h4 class="text-center text-xl inter-tight-200">
+          <p class="p-2">We have reserved a block of rooms at the <em>Hotel Zero Degrees</em> in Danbury, CT.</p>
+          <p class="p-2">Use the promo code <span class="font-normal italic">Kost-Hancox</span> to get a discounted rate when booking, or use the link below.</p>
+          <p class="p-2">Transportation to and from the venue wil be provided for hotel guests.</p>
+
+          <p class="p-2 underline underline-offset-6">
+            <a href="https://www.bookonthenet.net/east/premium/eresmain.aspx?id=oPfgYtGlzPGCtjdhJSGRxpWSv6DEA17GUTSvb%2fqoNNA%3d&arrival_date=2025-11-07&stay_nights=2&promo_code=Kost-Hancox#/search" target="_blank">
+              + Book now
+            </a>
+          </p>
+        </h4>
+      </div>
+
+      <div class="bg-gray-200 text-sky-800 text-center p-16 text-6xl/24 w-1/2 mx-auto">
+        <p>We hope you'll join us on this special day.</p>
+
+        <a href="https://forms.gle/7SXgQK9WQWC1VWzp6" target="_blank">
+          <button class="bg-sky-700 hover:bg-sky-800 text-white text-2xl p-4 rounded-md px-24 cursor-pointer ">
+            RSVP
+          </button>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
